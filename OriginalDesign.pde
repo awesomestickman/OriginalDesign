@@ -1,9 +1,12 @@
+
+
 void setup()
 {
 
 }
 void draw()
 {
-  ellipse(50,50,50,50);
+	fill(20,20,20);
+  ellipse(80,50,50,50);
 }
 
