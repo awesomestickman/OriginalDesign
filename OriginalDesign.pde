@@ -18,7 +18,7 @@ void draw()
 }
 
 void bezierStuff(){
-	fill(20,20,20);
+	fill(x1*0.1,x1*0.5,x1);
 	bezier(150, 20, x1, 30, x1, 30, 150, 200);
 
 }
@@ -49,7 +49,9 @@ if(key=='d'){
 }
 void keyResults(){
 	if(ak==true){
-		x1-=2;
+	 if(x1>5){
+            x1-=2;
+         }
 	}
 	if(dk==true){
 		x1+=2;
